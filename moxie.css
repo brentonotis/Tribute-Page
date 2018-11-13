@@ -158,3 +158,15 @@ hr {
 .brenton {
   color: blue;
 }
+
+@media (max-width: 650px) {
+  .tribute-info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 820px) {
+  .tribute-links {
+    flex-direction: column;
+  }
+}
